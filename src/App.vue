@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="bottom-message">
-      Please select the parameters for your project
+      Select the parameters for your project:
     </div>
     <HelloWorld v-model="switch1">GOOD</HelloWorld>
     <HelloWorld v-model="switch2" color="#F5BF21">CHEAP</HelloWorld>
@@ -10,6 +10,7 @@
 
     <div class="bottom-message">
       <!-- {{ rand }}<br> -->
+      Please remember: <a href="https://tools.ietf.org/html/rfc1925">rfc1925</a>
     </div>
   </div>
 </template>
